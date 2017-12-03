@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Trivial Trivia</title>
+    <title>TriviApocolypse</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
@@ -12,40 +13,42 @@
         <h1>TriviApocolypse</h1>
     </header>
     <div id="content">
-        <button>Start</button>
-        <aside id="time">
-            <h3>Time Remaining: <b></b> Second(s)</h3>
-        </aside>
-        <section id="question">
-            <h2></h2>
-            <ul>
-                <li id="a"></li>
-                <li id="b"></li>
-                <li id="c"></li>
-                <li id="d"></li>
-            </ul>
-        </section>
-        <section id="result">
-            <h3></h3>
-            <div>
-                <b></b>
-                <img src="" />
-            </div>
-        </section>
-        <section id="finish">
-            <h3>All done, here's how you did!</h3>
-            <ul>
-                <li id="correct">
-                    Correct Answers: <b></b>
-                </li>
-                <li id="incorrect">
-                    Incorrect Answers: <b></b>
-                </li>
-                <li id="unanswered">
-                    Unanswered: <b></b>
-                </li>
-            </ul>
-        </section>
+        <main>
+            <button>Start</button>
+            <aside id="time">
+                <h3>Time Remaining: <b></b> Second(s)</h3>
+            </aside>
+            <section id="question">
+                <h2></h2>
+                <ul>
+                    <li id="a"></li>
+                    <li id="b"></li>
+                    <li id="c"></li>
+                    <li id="d"></li>
+                </ul>
+            </section>
+            <section id="result">
+                <h3></h3>
+                <div>
+                    <b></b>
+                    <img src="" />
+                </div>
+            </section>
+            <section id="finish">
+                <h3>All done, here's how you did!</h3>
+                <ul>
+                    <li id="correct">
+                        Correct Answers: <b></b>
+                    </li>
+                    <li id="incorrect">
+                        Incorrect Answers: <b></b>
+                    </li>
+                    <li id="unanswered">
+                        Unanswered: <b></b>
+                    </li>
+                </ul>
+            </section>
+        </main>
     </div>
 <footer>
     <div id="copyright">
