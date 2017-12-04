@@ -1,4 +1,46 @@
 $(document).ready(function(){
+    var questions = [
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"},
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"},
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"},
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"},
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"},
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"},
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"},
+        {query: "Everyone remembers the world was supposed to end on December \
+            21st 2012, but thee was another 21st in 2011 that theorists believed \
+            would be the end of days. What month was it?",
+            a: "April", b: "May", c: "June", d: "July",
+            answer: "May", img: "../img/may-21.jpg"}
+    ]
     var button = $("button");
 
     var timeAside = $("#time");
@@ -22,12 +64,16 @@ $(document).ready(function(){
     var $incorrect = $("#incorrect").children("b");
     var $unanswered = $("#unanswered").children("b");
 
-    function Start() {
+    function populateQuestion() {
+
+    }
+
+    function start() {
         button.hide();
         timeAside.show();
         questionSection.show();
     }
     timeAside.hide();questionSection.hide();resultSection.hide();finishSection.hide();
     
-    button.click(Start);
+    button.click(start);
 });
